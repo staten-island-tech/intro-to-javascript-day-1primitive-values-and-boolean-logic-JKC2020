@@ -75,19 +75,19 @@ if(lactoseKristy == true && lactoseBao == true) {
     console.log("Get both");
 }else {
     console.log("Get Milk");
-}
+};
 
 // Formative Assessment 3
-let Temperature = 56;
+let Temperature = 68;
 if(Temperature < 68){
     console.log("Too Cold");
-}else if(Temperature <= 68 && Temperature >= 72){
+}else if(Temperature >= 68 && Temperature <= 72){
     console.log("Perfect");
-}else if(Temperature <= 73 && Temperature >= 76){
+}else if(Temperature >= 73 && Temperature >= 76){
     console.log("Warm");
 }else if(Temperature > 76){
     console.log("Too Hot");
-}
+};
 
 ///Functions_______________________________________________________________
 
